@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote name="z3DD3r" fetch="https://github.com/z3DD3r" revision="lineage-16.0" />
+
+    <!-- Device tree -->
+    <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="z3DD3r" />
+    <!-- Kernel -->
+    <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="z3DD3r" />
+    <!-- Vendor -->
+    <project name="android_vendor_lge" path="vendor/lge" remote="z3DD3r" />
+
+</manifest>
